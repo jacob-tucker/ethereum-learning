@@ -11,7 +11,7 @@ contract Entity is IEntity {
         number = newNumber;
     }
 
-    function add(uint256 x, uint256 y) public pure returns (uint256) {
+    function add(uint256 x, uint256 y) public pure override returns (uint256) {
         return x + y;
     }
 }
